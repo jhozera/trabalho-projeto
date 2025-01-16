@@ -46,7 +46,7 @@ nav a{
 
 }
 
-nav a:hover::after {
+nav .button-pt:hover::after {
     content: ""; 
     position: absolute; 
     bottom: -5px; 
@@ -168,8 +168,17 @@ h5{
 }
 
 .caixa-sg2 img{
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
     border-radius: 50%;
+    border: solid 20px #626262;
 }
 
 
 
+@media (min-width: 1200px){
+    .text h2{
+        font-size: 40px;
+    }
+}
