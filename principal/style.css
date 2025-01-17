@@ -455,6 +455,7 @@ button {
     align-items: center;
     gap: 80px;
     margin-top: 100px;
+    width: 100%;
 }
 
 .caixa-img img{
@@ -516,4 +517,31 @@ button {
     .text h2{
         font-size: 40px;
     }
+
+   .caixa-sg{
+    height: 200vh;
+   }
+    
+   .caixa-th{
+    height: 140vh;
+   }
+
+   .ava-th{
+    height: 110vh;
+   }
+
+   .caixa-gg{
+    height: 105vh;
+   }
+
+   .caixa-fl{
+    height: 110vh;
+   }
+
+   .caixa-img{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 100%;
+}
+
 }
