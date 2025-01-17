@@ -215,4 +215,19 @@ nav p:hover{
     .text h2{
         font-size: 40px;
     }
+
+    .banner-pr{
+        font-size: 10px;
+        margin: 50px;
+    }
+     
+    .banner-se{
+       height: 105vh;
+
+    } 
+    
+    .ava-th{
+        height: 100vh;
+    }
+   
 }
