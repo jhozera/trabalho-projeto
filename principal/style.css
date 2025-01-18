@@ -513,35 +513,173 @@ button {
   }
  
 
-@media (min-width: 1200px){
-    .text h2{
-        font-size: 40px;
+/* Para dispositivos pequenos (smartphones em retrato) */
+@media (max-width: 576px) {
+    nav h1 {
+        font-size: 24px;
     }
 
-   .caixa-sg{
-    height: 200vh;
-   }
-    
-   .caixa-th{
-    height: 140vh;
-   }
+    .button-pr {
+        width: 200px;
+        font-size: 14px;
+    }
 
-   .ava-th{
-    height: 110vh;
-   }
+    .text h2 {
+        font-size: 28px;
+    }
 
-   .caixa-gg{
-    height: 105vh;
-   }
+    .text p {
+        font-size: 18px;
+    }
 
-   .caixa-fl{
-    height: 110vh;
-   }
+    .text a {
+        font-size: 18px;
+        width: 250px;
+    }
 
-   .caixa-img{
-    margin-top: 100px;
-    margin-left: 100px;
-    width: 100%;
+    .caixa-pr {
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .caixa-sg1 p {
+        font-size: 20px;
+    }
+
+    .caixa-st {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .caixa-sg2 img {
+        height: 200px;
+        width: 200px;
+        border: solid 10px #626262;
+    }
+
+    .caixa-th h6 {
+        font-size: 28px;
+    }
+
+    .caixa-thp {
+        font-size: 20px;
+    }
+
+    .caixa-thp1::before {
+        left: 3px;
+    }
+
+    .button-ath {
+        width: 250px;
+        font-size: 16px;
+    }
+
+    .ava-j {
+        width: 100%;
+    }
+
+    .caixa-img img {
+        width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .instagram,
+    .facebook {
+        width: 15%;
+    }
 }
 
+/* Para tablets (telas médias) */
+@media (min-width: 577px) and (max-width: 768px) {
+    nav h1 {
+        font-size: 32px;
+    }
+
+    .button-pr {
+        width: 250px;
+        font-size: 16px;
+    }
+
+    .text h2 {
+        font-size: 32px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    .caixa-pr {
+        padding: 40px;
+        gap: 40px;
+        width: 80%;
+    }
+
+    .caixa-st {
+        gap: 60px;
+    }
+
+    .caixa-th h6 {
+        font-size: 30px;
+    }
+
+    .caixa-thp {
+        font-size: 24px;
+    }
+
+    .button-ath {
+        width: 280px;
+    }
+
+    .ava-j {
+        width: 80%;
+    }
+
+    .caixa-img img {
+        width: 90%;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+/* Para telas grandes (desktops e tablets em paisagem) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .text h2 {
+        font-size: 36px;
+    }
+
+    .text p {
+        font-size: 22px;
+    }
+
+    .caixa-pr {
+        padding: 50px;
+        gap: 50px;
+        width: 70%;
+    }
+
+    .caixa-th h6 {
+        font-size: 32px;
+    }
+
+    .caixa-thp {
+        font-size: 26px;
+    }
+
+    .button-ath {
+        width: 300px;
+    }
+
+    .footer-content {
+        justify-content: space-around;
+    }
 }

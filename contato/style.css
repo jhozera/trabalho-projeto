@@ -124,40 +124,6 @@ nav p:hover{
 }
 
 
-.ava-th{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #eeeeee;
-    height: 60vh;
-}
-
-.ava-h1{
-    color: #054daf;
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;  
-}
-
-.ava-h1 span{
-    color: #00bc5c;
-}
-
-.ava-jh{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-
-.ava-m{
-    opacity: 0.5;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-
-}
-
-.ava-j{
-    width: 500px;
-}
 
 
 
@@ -210,6 +176,118 @@ nav p:hover{
     margin: 5px;
   }
  
+  .caixa-pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #eeeeee;
+
+  }
+
+  .whats, .telefone, .email{
+    font-family: 'Montserrat', sans-serif; 
+    width: 20%; 
+
+  }
+
+  .endere{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .endere p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #707070
+}
+
+.endere p span{
+    font-size: 25px
+}
+
+.caixa-gg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    height: 80vh;
+}
+
+.caixa-gg h2{
+    color: #054daf;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.caixa-gg span{
+    color: #00bc5c;
+}
+
+.caixa-gg p{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;  
+    color: #989898;
+}
+
+
+.formulario {
+    max-width: 400px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forma-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #626262;
+    font-family: 'Montserrat', sans-serif;  
+    padding: 5px;
+
+
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;  
+    color: #626262;
+    background-color: #ffffff;
+    border: none;
+
+}
+
+
+input:focus, textarea:focus {
+    border-color: #00a859; 
+    outline: none;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #00a859;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;  
+}
+
 
 @media (min-width: 1200px){
     .text h2{
